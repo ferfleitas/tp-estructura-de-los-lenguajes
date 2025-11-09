@@ -1,0 +1,105 @@
+# Guía de Instalación y Ejecución de Programas
+## ALTERNATIVA GENERAL PARA TODOS: Utilizar un compilador online, por ejemplo
+https://www.onlinegdb.com/
+o compiladores de prueba específicos para cada lenguaje 
+https://go.dev/play/
+https://try.ruby-lang.org/ (pruebas casuales)
+
+## LENGUAJE PYTHON
+
+### Instalación
+
+Windows:
+1. Descargar Python desde python.org
+2. Ejecutar el instalador y marcar "Add Python to PATH"
+3. Verificar: `python --version`
+
+Linux:
+bash
+sudo apt install python3 python3-pip  # Ubuntu/Debian
+
+### Ejecutar
+python archivo.py
+
+---
+
+## LENGUAJE JAVASCRIPT
+
+### Instalación
+
+Windows:
+1. Descargar Node.js desde https://nodejs.org/es
+2. Ejecutar el instalador
+3. Verificar: `node --version`
+
+Linux:
+sudo apt install nodejs npm        
+
+### Ejecutar
+node archivo.js
+
+---
+
+## LENGUAJE C#
+
+### Instalación
+
+Windows:
+1. Descargar .NET SDK desde https://dotnet.microsoft.com/en-us/download
+2. Ejecutar instalador
+3. Verificar: `dotnet --version`
+
+Linux:
+visite ->
+https://learn.microsoft.com/es-es/dotnet/core/install/linux-scripted-manual
+
+### Ejecutar
+# Crear proyecto
+dotnet new console -n MiApp
+cd MiApp
+
+# Ejecutar
+dotnet run
+
+---
+
+## LENGUAJE RUBY
+
+### Instalación
+
+Windows:
+1. Descargar RubyInstaller desde https://rubyinstaller.org/
+2. Ejecutar instalador
+3. Verificar: `ruby --version`
+
+Linux:
+
+sudo apt install ruby-full
+
+### Ejecutar
+
+ruby archivo.rb
+
+---
+
+## LENGUAJE GO
+
+### Instalación
+
+Windows:
+1. Descargar Go desde https://go.dev/dl/
+2. Ejecutar instalador
+3. Verificar: `go version`
+
+Linux:
+sudo apt install golang-go
+
+### Ejecutar
+
+# Ejecutar directamente
+go run archivo.go
+
+# O compilar y ejecutar
+go build archivo.go
+./archivo          # Linux
+archivo.exe        # Windows
